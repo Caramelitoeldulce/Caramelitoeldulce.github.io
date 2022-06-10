@@ -1,0 +1,120 @@
+body{
+    font-family: sans-serif;
+    margin: 0%;
+    background-color: rgb(32, 31, 31);
+}
+
+a{
+    text-decoration: none;
+    color: gold;
+}
+
+header{
+    display: flex;
+    height: 80px;
+    background-color: rgb(10, 10, 10);
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.JAVA{
+    display: flex;
+    align-items:center ;    
+    color:rgb(13, 206, 196);
+}
+
+.JAVA img{
+    height: 90px;
+    margin-right: 20px;
+}
+
+nav a {
+    font-weight: 800;
+    padding-right: 150px;
+    color: rgb(13, 206, 196);
+    
+}
+
+.text{
+    font-size: 22px;
+    margin: 10px;
+    color: gold;
+
+}
+
+section img{
+    height: 400px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-style: solid;
+}
+
+.impo{
+    font-size: 22px;
+    margin: 10px;
+    color: yellow;
+}
+
+h1{
+    color: rgb(13, 206, 196);
+    margin: 10px;
+    height: 30px;
+    text-align: center; 
+}
+
+img:hover{
+    transform: scale(0.9);
+}
+
+img{
+    transition: all 0.5s linear;
+}
+
+h2{
+    font-size: 50px;
+    text-align: center;
+    color: rgb(13, 206, 196);
+}
+
+.creador{
+    font-size: 22px;
+    text-align: center;
+}
+
+.creador{
+    color: yellow
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+h3{
+    font-size: 28px;
+    margin: 2px;
+    padding-top: 10px;
+}
+
+footer{
+    width: 100%;
+    background: #5c0e0e;
+    color: azure;
+    text-align: center;
+}
+footer img{
+    height: 40px;
+    width: 40px;
+}
+
+.row2{
+    padding-bottom: 15px;
+    align-items: center;
+}
+
+
