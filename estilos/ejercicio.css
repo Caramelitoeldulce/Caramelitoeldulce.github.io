@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2? family= Noto+Serif+JP:wght@200 & display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 100%;
+}
+
+.contenedor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    padding: 15px;
+}
+
+.calculadora{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    font-size: 2.0rem;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.resultado{
+    padding: 25px 15px; 
+    width: 100%;
+    text-align: right;
+    border: 1px solid rgb(0, 0, 0);
+    /*define qué se debe mostrar cuando el contenido se desborda de los extremos superior e inferior de un elemento en bloque*/
+    overflow-x: auto;
+}
+
+.botones{
+    display: flex;
+    width: 100%;
+}
+
+.numeros{
+    display: flex;
+    width: 100%;
+    /* especifica si los elementos son obligados a permanecer en una misma línea o pueden fluir en varias líneas */
+    flex-wrap: wrap;
+}
+
+.boton{
+    width: 25%;
+    padding: 15px 0;
+    text-align: center;
+    cursor: pointer;
+    background-color: rgb(97, 160, 95);
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.boton:hover{
+    filter: brightness(80%);
+    transition: filter .25s;
+}
+
+.l{
+    width: 50%;
+}
+
+.g{
+    background-color: darkgray;
+}
+
+.y{
+    background-color: yellow;
+}
+.JAVA{
+    display: flex;
+    align-items:center ;    
+    color:rgb(13, 206, 196);
+}
+.JAVA img{
+    height: 90px;
+    margin-right: 20px;
+}
+nav a {
+    font-weight: 800;
+    padding-right: 150px;
+    color: rgb(13, 206, 196);
+    padding-left: 300px;
+    display: inline-block;
+}
+header{
+    display:block;
+    height: 150px;
+    background-color: rgb(10, 10, 10);
+    justify-content:center;
+    align-items: center;
+    padding: 15px;
+}
+h1{
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    margin-top: 50px;
+}
